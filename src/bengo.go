@@ -28,7 +28,6 @@ func getCard() map[int][]int {
 				}
 			}
 		}
-		fmt.Println(line)
 		card[col] = line
 		col++
 	}
