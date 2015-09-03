@@ -1,8 +1,8 @@
-# bengo
+# bingo
 
 ###output
 ```
-/usr/local/go/bin/go run /Users/dela/Documents/develop/golang/bengo/src/bengo.go
+/usr/local/go/bin/go run /Users/dela/Documents/develop/golang/bengo/src/bingo.go
 player1
 ----------------
 |11|26|45|55|74|
