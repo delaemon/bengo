@@ -84,7 +84,6 @@ func hit(target int, card map[int][]int) (bool, int, int) {
 	for row, v := range line {
 		if v == target {
 			card[col][row] = 0
-			grid(card)
 			return true, col, row
 		}
 	}
@@ -188,6 +187,8 @@ func main() {
 			target := drawing(numbers, i)
 			hit, col, row := hit(target, card)
 			if hit {
+				fmt.Println("\nhit!!")
+				grid(card)
 				fmt.Printf("player: %d, target: %d, hit: %t, row:%d, col:%d\n",
 					player+1, target, hit, col, row)
 			}
