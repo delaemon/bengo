@@ -2,603 +2,514 @@
 
 ###output
 ```
-/usr/local/go/bin/go run /Users/dela/Documents/develop/golang/bengo/src/bingo.go
+> go run bingo.go
 player1
 ----------------
-|11|26|45|55|74|
+|10|26|33|46|63|
 ----------------
-|10|23|31|51|65|
+|15|27|37|56|64|
 ----------------
-| 3|29| 0|48|69|
+| 1|25| 0|57|72|
 ----------------
-| 1|25|37|59|71|
+| 9|18|31|53|66|
 ----------------
-| 6|18|43|47|70|
+|12|22|44|55|75|
 ----------------
 player2
 ----------------
-|15|20|39|53|71|
+| 3|28|38|55|62|
 ----------------
-| 8|28|34|52|62|
+|13|26|31|46|72|
 ----------------
-| 6|18| 0|49|65|
+|15|20| 0|48|66|
 ----------------
-| 1|19|35|60|64|
+|11|24|39|53|65|
 ----------------
-|11|27|31|48|66|
+| 7|19|33|50|63|
 ----------------
+
+hit!!
 ----------------
-|11|26|45|55|74|
+|10|26|33|46|63|
 ----------------
-|10| 0|31|51|65|
+|15|27|37|56|64|
 ----------------
-| 3|29| 0|48|69|
+| 1|25| 0|57| 0|
 ----------------
-| 1|25|37|59|71|
+| 9|18|31|53|66|
 ----------------
-| 6|18|43|47|70|
+|12|22|44|55|75|
 ----------------
-player: 1, target: 23, hit: true 
-row: 0, col: 1, val: 10
-row: 1, col: 0, val: 26
-row: 0, col: 0, val: 11
-row: 0, col: 4, val: 6
-player: 2, target: 23, hit: false 
-player: 1, target: 13, hit: false 
-player: 2, target: 13, hit: false 
+player: 1, target: 72, hit: true, row:4, col:2
+[|] col: 4, row: 0, val: 63
+[-] col: 0, row: 2, val: 1
+[/] col: 4, row: 0, val: 63
+[\] col: 0, row: 0, val: 10
+
+hit!!
 ----------------
-|11|26|45|55|74|
+| 3|28|38|55|62|
 ----------------
-|10| 0|31|51|65|
+|13|26|31|46| 0|
 ----------------
-| 3|29| 0|48|69|
+|15|20| 0|48|66|
 ----------------
-| 1|25| 0|59|71|
+|11|24|39|53|65|
 ----------------
-| 6|18|43|47|70|
+| 7|19|33|50|63|
 ----------------
-player: 1, target: 37, hit: true 
-row: 0, col: 3, val: 1
-row: 2, col: 0, val: 45
-row: 0, col: 0, val: 11
-row: 0, col: 4, val: 6
-player: 2, target: 37, hit: false 
-player: 1, target: 4, hit: false 
-player: 2, target: 4, hit: false 
-player: 1, target: 44, hit: false 
-player: 2, target: 44, hit: false 
+player: 2, target: 72, hit: true, row:4, col:1
+[|] col: 4, row: 0, val: 62
+[-] col: 0, row: 1, val: 13
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 3
+
+hit!!
 ----------------
-|11|26|45|55|74|
+| 3|28|38|55|62|
 ----------------
-|10| 0|31|51|65|
+|13|26|31|46| 0|
 ----------------
-| 3|29| 0|48|69|
+|15| 0| 0|48|66|
 ----------------
-| 1| 0| 0|59|71|
+|11|24|39|53|65|
 ----------------
-| 6|18|43|47|70|
+| 7|19|33|50|63|
 ----------------
-player: 1, target: 25, hit: true 
-row: 0, col: 3, val: 1
-row: 1, col: 0, val: 26
-row: 0, col: 0, val: 11
-row: 0, col: 4, val: 6
-player: 2, target: 25, hit: false 
+player: 2, target: 20, hit: true, row:1, col:2
+[|] col: 1, row: 0, val: 28
+[-] col: 0, row: 2, val: 15
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 3
+
+hit!!
 ----------------
-|11|26|45|55|74|
+| 3|28|38|55|62|
 ----------------
-|10| 0|31|51|65|
+|13|26|31|46| 0|
 ----------------
-| 3|29| 0|48|69|
+|15| 0| 0|48|66|
 ----------------
-| 1| 0| 0|59|71|
+|11|24|39|53| 0|
 ----------------
-| 6|18|43|47| 0|
+| 7|19|33|50|63|
 ----------------
-player: 1, target: 70, hit: true 
-row: 0, col: 4, val: 6
-row: 4, col: 0, val: 74
-row: 0, col: 0, val: 11
-row: 0, col: 4, val: 6
-player: 2, target: 70, hit: false 
+player: 2, target: 65, hit: true, row:4, col:3
+[|] col: 4, row: 0, val: 62
+[-] col: 0, row: 3, val: 11
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 3
+
+hit!!
 ----------------
-|11|26|45|55|74|
+| 3|28|38|55|62|
 ----------------
-|10| 0|31|51|65|
+|13|26|31|46| 0|
 ----------------
-| 3|29| 0|48|69|
+|15| 0| 0|48|66|
 ----------------
-| 1| 0| 0|59|71|
+|11|24|39|53| 0|
 ----------------
-| 6| 0|43|47| 0|
+| 0|19|33|50|63|
 ----------------
-player: 1, target: 18, hit: true 
-row: 0, col: 4, val: 6
-row: 1, col: 0, val: 26
-row: 0, col: 0, val: 11
-row: 0, col: 4, val: 6
+player: 2, target: 7, hit: true, row:0, col:4
+[|] col: 0, row: 0, val: 3
+[-] col: 0, row: 4, val: 0
+[-] col: 1, row: 4, val: 19
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 3
+
+hit!!
 ----------------
-|15|20|39|53|71|
+|10|26|33|46|63|
 ----------------
-| 8|28|34|52|62|
+|15|27|37|56|64|
 ----------------
-| 6| 0| 0|49|65|
+| 1|25| 0| 0| 0|
 ----------------
-| 1|19|35|60|64|
+| 9|18|31|53|66|
 ----------------
-|11|27|31|48|66|
+|12|22|44|55|75|
 ----------------
-player: 2, target: 18, hit: true 
-row: 0, col: 2, val: 6
-row: 1, col: 0, val: 20
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 11
-player: 1, target: 42, hit: false 
-player: 2, target: 42, hit: false 
-player: 1, target: 16, hit: false 
-player: 2, target: 16, hit: false 
+player: 1, target: 57, hit: true, row:3, col:2
+[|] col: 3, row: 0, val: 46
+[-] col: 0, row: 2, val: 1
+[/] col: 4, row: 0, val: 63
+[\] col: 0, row: 0, val: 10
+
+hit!!
 ----------------
-|11|26|45|55|74|
+| 3|28| 0|55|62|
 ----------------
-|10| 0|31|51|65|
+|13|26|31|46| 0|
 ----------------
-| 3|29| 0|48|69|
+|15| 0| 0|48|66|
 ----------------
-| 0| 0| 0|59|71|
+|11|24|39|53| 0|
 ----------------
-| 6| 0|43|47| 0|
+| 0|19|33|50|63|
 ----------------
-player: 1, target: 1, hit: true 
-row: 0, col: 3, val: 0
-row: 0, col: 0, val: 11
-row: 0, col: 0, val: 11
-row: 0, col: 4, val: 6
+player: 2, target: 38, hit: true, row:2, col:0
+[|] col: 2, row: 0, val: 0
+[|] col: 2, row: 1, val: 31
+[-] col: 0, row: 0, val: 3
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 3
+
+hit!!
 ----------------
-|15|20|39|53|71|
+| 0|28| 0|55|62|
 ----------------
-| 8|28|34|52|62|
+|13|26|31|46| 0|
 ----------------
-| 6| 0| 0|49|65|
+|15| 0| 0|48|66|
 ----------------
-| 0|19|35|60|64|
+|11|24|39|53| 0|
 ----------------
-|11|27|31|48|66|
+| 0|19|33|50|63|
 ----------------
-player: 2, target: 1, hit: true 
-row: 0, col: 3, val: 0
-row: 0, col: 0, val: 15
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 11
-player: 1, target: 2, hit: false 
-player: 2, target: 2, hit: false 
-player: 1, target: 8, hit: false 
+player: 2, target: 3, hit: true, row:0, col:0
+[|] col: 0, row: 0, val: 0
+[|] col: 0, row: 1, val: 13
+[-] col: 0, row: 0, val: 0
+[-] col: 1, row: 0, val: 28
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 26
+
+hit!!
 ----------------
-|15|20|39|53|71|
+| 0|28| 0|55|62|
 ----------------
-| 0|28|34|52|62|
+|13|26|31|46| 0|
 ----------------
-| 6| 0| 0|49|65|
+|15| 0| 0|48|66|
 ----------------
-| 0|19|35|60|64|
+|11|24|39|53| 0|
 ----------------
-|11|27|31|48|66|
+| 0| 0|33|50|63|
 ----------------
-player: 2, target: 8, hit: true 
-row: 0, col: 1, val: 0
-row: 0, col: 0, val: 15
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 11
-player: 1, target: 52, hit: false 
+player: 2, target: 19, hit: true, row:1, col:4
+[|] col: 1, row: 0, val: 28
+[-] col: 0, row: 4, val: 0
+[-] col: 1, row: 4, val: 0
+[-] col: 2, row: 4, val: 33
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 26
+
+hit!!
 ----------------
-|15|20|39|53|71|
+| 0|26|33|46|63|
 ----------------
-| 0|28|34| 0|62|
+|15|27|37|56|64|
 ----------------
-| 6| 0| 0|49|65|
+| 1|25| 0| 0| 0|
 ----------------
-| 0|19|35|60|64|
+| 9|18|31|53|66|
 ----------------
-|11|27|31|48|66|
+|12|22|44|55|75|
 ----------------
-player: 2, target: 52, hit: true 
-row: 0, col: 1, val: 0
-row: 3, col: 0, val: 53
-row: 3, col: 1, val: 0
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 11
+player: 1, target: 10, hit: true, row:0, col:0
+[|] col: 0, row: 0, val: 0
+[|] col: 0, row: 1, val: 15
+[-] col: 0, row: 0, val: 0
+[-] col: 1, row: 0, val: 26
+[/] col: 4, row: 0, val: 63
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 27
+
+hit!!
 ----------------
-|11|26|45|55|74|
+| 0|28| 0|55|62|
 ----------------
-|10| 0|31|51| 0|
+|13|26|31|46| 0|
 ----------------
-| 3|29| 0|48|69|
+|15| 0| 0|48|66|
 ----------------
-| 0| 0| 0|59|71|
+|11|24| 0|53| 0|
 ----------------
-| 6| 0|43|47| 0|
+| 0| 0|33|50|63|
 ----------------
-player: 1, target: 65, hit: true 
-row: 0, col: 1, val: 10
-row: 4, col: 0, val: 74
-row: 0, col: 0, val: 11
-row: 0, col: 4, val: 6
+player: 2, target: 39, hit: true, row:2, col:3
+[|] col: 2, row: 0, val: 0
+[|] col: 2, row: 1, val: 31
+[-] col: 0, row: 3, val: 11
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 26
+
+hit!!
 ----------------
-|15|20|39|53|71|
+| 0|26|33| 0|63|
 ----------------
-| 0|28|34| 0|62|
+|15|27|37|56|64|
 ----------------
-| 6| 0| 0|49| 0|
+| 1|25| 0| 0| 0|
 ----------------
-| 0|19|35|60|64|
+| 9|18|31|53|66|
 ----------------
-|11|27|31|48|66|
+|12|22|44|55|75|
 ----------------
-player: 2, target: 65, hit: true 
-row: 0, col: 2, val: 6
-row: 4, col: 0, val: 71
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 11
-player: 1, target: 30, hit: false 
-player: 2, target: 30, hit: false 
-player: 1, target: 27, hit: false 
+player: 1, target: 46, hit: true, row:3, col:0
+[|] col: 3, row: 0, val: 0
+[|] col: 3, row: 1, val: 56
+[-] col: 0, row: 0, val: 0
+[-] col: 1, row: 0, val: 26
+[/] col: 4, row: 0, val: 63
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 27
+
+hit!!
 ----------------
-|15|20|39|53|71|
+| 0|28| 0|55|62|
 ----------------
-| 0|28|34| 0|62|
+|13|26|31| 0| 0|
 ----------------
-| 6| 0| 0|49| 0|
+|15| 0| 0|48|66|
 ----------------
-| 0|19|35|60|64|
+|11|24| 0|53| 0|
 ----------------
-|11| 0|31|48|66|
+| 0| 0|33|50|63|
 ----------------
-player: 2, target: 27, hit: true 
-row: 0, col: 4, val: 11
-row: 1, col: 0, val: 20
-row: 1, col: 1, val: 28
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 11
-player: 1, target: 73, hit: false 
-player: 2, target: 73, hit: false 
+player: 2, target: 46, hit: true, row:3, col:1
+[|] col: 3, row: 0, val: 55
+[-] col: 0, row: 1, val: 13
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 26
+
+hit!!
 ----------------
-|11|26|45|55|74|
+| 0|26|33| 0|63|
 ----------------
-|10| 0| 0|51| 0|
+| 0|27|37|56|64|
 ----------------
-| 3|29| 0|48|69|
+| 1|25| 0| 0| 0|
 ----------------
-| 0| 0| 0|59|71|
+| 9|18|31|53|66|
 ----------------
-| 6| 0|43|47| 0|
+|12|22|44|55|75|
 ----------------
-player: 1, target: 31, hit: true 
-row: 0, col: 1, val: 10
-row: 2, col: 0, val: 45
-row: 0, col: 0, val: 11
-row: 0, col: 4, val: 6
+player: 1, target: 15, hit: true, row:0, col:1
+[|] col: 0, row: 0, val: 0
+[|] col: 0, row: 1, val: 0
+[|] col: 0, row: 2, val: 1
+[-] col: 0, row: 1, val: 0
+[-] col: 1, row: 1, val: 27
+[/] col: 4, row: 0, val: 63
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 27
+
+hit!!
 ----------------
-|15|20|39|53|71|
+| 0|28| 0|55|62|
 ----------------
-| 0|28|34| 0|62|
-----------------
-| 6| 0| 0|49| 0|
-----------------
-| 0|19|35|60|64|
-----------------
-|11| 0| 0|48|66|
-----------------
-player: 2, target: 31, hit: true 
-row: 0, col: 4, val: 11
-row: 2, col: 0, val: 39
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 11
-player: 1, target: 38, hit: false 
-player: 2, target: 38, hit: false 
-----------------
-| 0|26|45|55|74|
-----------------
-|10| 0| 0|51| 0|
-----------------
-| 3|29| 0|48|69|
-----------------
-| 0| 0| 0|59|71|
-----------------
-| 6| 0|43|47| 0|
-----------------
-player: 1, target: 11, hit: true 
-row: 0, col: 0, val: 0
-row: 1, col: 0, val: 26
-row: 0, col: 0, val: 0
-row: 0, col: 1, val: 10
-row: 0, col: 0, val: 0
-row: 1, col: 1, val: 0
-row: 2, col: 2, val: 0
-row: 3, col: 3, val: 59
-row: 0, col: 4, val: 6
-----------------
-|15|20|39|53|71|
-----------------
-| 0|28|34| 0|62|
-----------------
-| 6| 0| 0|49| 0|
-----------------
-| 0|19|35|60|64|
+|13|26|31| 0| 0|
 ----------------
 | 0| 0| 0|48|66|
 ----------------
-player: 2, target: 11, hit: true 
-row: 0, col: 4, val: 0
-row: 0, col: 0, val: 15
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 0
-player: 1, target: 24, hit: false 
-player: 2, target: 24, hit: false 
-player: 1, target: 72, hit: false 
-player: 2, target: 72, hit: false 
-player: 1, target: 14, hit: false 
-player: 2, target: 14, hit: false 
-player: 1, target: 61, hit: false 
-player: 2, target: 61, hit: false 
+|11|24| 0|53| 0|
 ----------------
-| 0|26|45|55|74|
+| 0| 0|33|50|63|
 ----------------
-|10| 0| 0|51| 0|
+player: 2, target: 15, hit: true, row:0, col:2
+[|] col: 0, row: 0, val: 0
+[|] col: 0, row: 1, val: 13
+[-] col: 0, row: 2, val: 0
+[-] col: 1, row: 2, val: 0
+[-] col: 2, row: 2, val: 0
+[-] col: 3, row: 2, val: 48
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 26
+
+hit!!
 ----------------
-| 3|29| 0|48| 0|
+| 0|26|33| 0|63|
 ----------------
-| 0| 0| 0|59|71|
+| 0|27|37|56|64|
 ----------------
-| 6| 0|43|47| 0|
+| 0|25| 0| 0| 0|
 ----------------
-player: 1, target: 69, hit: true 
-row: 0, col: 2, val: 3
-row: 4, col: 0, val: 74
-row: 0, col: 0, val: 0
-row: 1, col: 1, val: 0
-row: 2, col: 2, val: 0
-row: 3, col: 3, val: 59
-row: 0, col: 4, val: 6
-player: 2, target: 69, hit: false 
-player: 1, target: 54, hit: false 
-player: 2, target: 54, hit: false 
-player: 1, target: 40, hit: false 
-player: 2, target: 40, hit: false 
-player: 1, target: 33, hit: false 
-player: 2, target: 33, hit: false 
-player: 1, target: 9, hit: false 
-player: 2, target: 9, hit: false 
-player: 1, target: 62, hit: false 
+| 9|18|31|53|66|
 ----------------
-|15|20|39|53|71|
+|12|22|44|55|75|
 ----------------
-| 0|28|34| 0| 0|
+player: 1, target: 1, hit: true, row:0, col:2
+[|] col: 0, row: 0, val: 0
+[|] col: 0, row: 1, val: 0
+[|] col: 0, row: 2, val: 0
+[|] col: 0, row: 3, val: 9
+[-] col: 0, row: 2, val: 0
+[-] col: 1, row: 2, val: 25
+[/] col: 4, row: 0, val: 63
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 27
+
+hit!!
 ----------------
-| 6| 0| 0|49| 0|
+| 0|26|33| 0|63|
 ----------------
-| 0|19|35|60|64|
+| 0|27|37|56|64|
 ----------------
-| 0| 0| 0|48|66|
+| 0|25| 0| 0| 0|
 ----------------
-player: 2, target: 62, hit: true 
-row: 0, col: 1, val: 0
-row: 4, col: 0, val: 71
-row: 4, col: 1, val: 0
-row: 4, col: 2, val: 0
-row: 4, col: 3, val: 64
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 0
-player: 1, target: 22, hit: false 
-player: 2, target: 22, hit: false 
-player: 1, target: 12, hit: false 
-player: 2, target: 12, hit: false 
-player: 1, target: 28, hit: false 
+| 9|18|31|53|66|
 ----------------
-|15|20|39|53|71|
+|12|22| 0|55|75|
 ----------------
-| 0| 0|34| 0| 0|
+player: 1, target: 44, hit: true, row:2, col:4
+[|] col: 2, row: 0, val: 33
+[-] col: 0, row: 4, val: 12
+[/] col: 4, row: 0, val: 63
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 27
+
+hit!!
 ----------------
-| 6| 0| 0|49| 0|
+| 0|26|33| 0|63|
 ----------------
-| 0|19|35|60|64|
+| 0|27|37|56|64|
 ----------------
-| 0| 0| 0|48|66|
+| 0|25| 0| 0| 0|
 ----------------
-player: 2, target: 28, hit: true 
-row: 0, col: 1, val: 0
-row: 1, col: 0, val: 20
-row: 1, col: 1, val: 0
-row: 1, col: 2, val: 0
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 0
-player: 1, target: 75, hit: false 
-player: 2, target: 75, hit: false 
+| 9|18|31|53|66|
 ----------------
-| 0|26|45|55|74|
+|12| 0| 0|55|75|
 ----------------
-| 0| 0| 0|51| 0|
+player: 1, target: 22, hit: true, row:1, col:4
+[|] col: 1, row: 0, val: 26
+[-] col: 0, row: 4, val: 12
+[/] col: 4, row: 0, val: 63
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 27
+
+hit!!
 ----------------
-| 3|29| 0|48| 0|
+| 0|28| 0|55|62|
 ----------------
-| 0| 0| 0|59|71|
-----------------
-| 6| 0|43|47| 0|
-----------------
-player: 1, target: 10, hit: true 
-row: 0, col: 1, val: 0
-row: 0, col: 0, val: 0
-row: 0, col: 1, val: 0
-row: 0, col: 0, val: 0
-row: 1, col: 1, val: 0
-row: 2, col: 2, val: 0
-row: 3, col: 3, val: 59
-row: 0, col: 4, val: 6
-player: 2, target: 10, hit: false 
-player: 1, target: 17, hit: false 
-player: 2, target: 17, hit: false 
-----------------
-| 0|26|45|55|74|
-----------------
-| 0| 0| 0|51| 0|
-----------------
-| 3|29| 0|48| 0|
-----------------
-| 0| 0| 0|59|71|
-----------------
-| 0| 0|43|47| 0|
-----------------
-player: 1, target: 6, hit: true 
-row: 0, col: 4, val: 0
-row: 0, col: 0, val: 0
-row: 0, col: 1, val: 0
-row: 0, col: 0, val: 0
-row: 1, col: 1, val: 0
-row: 2, col: 2, val: 0
-row: 3, col: 3, val: 59
-row: 0, col: 4, val: 0
-----------------
-|15|20|39|53|71|
-----------------
-| 0| 0|34| 0| 0|
-----------------
-| 0| 0| 0|49| 0|
-----------------
-| 0|19|35|60|64|
+|13|26|31| 0| 0|
 ----------------
 | 0| 0| 0|48|66|
 ----------------
-player: 2, target: 6, hit: true 
-row: 0, col: 2, val: 0
-row: 0, col: 0, val: 15
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 0
-player: 1, target: 60, hit: false 
+|11| 0| 0|53| 0|
 ----------------
-|15|20|39|53|71|
+| 0| 0|33|50|63|
 ----------------
-| 0| 0|34| 0| 0|
+player: 2, target: 24, hit: true, row:1, col:3
+[|] col: 1, row: 0, val: 28
+[-] col: 0, row: 3, val: 11
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 26
+
+hit!!
 ----------------
-| 0| 0| 0|49| 0|
+| 0|28| 0|55|62|
 ----------------
-| 0|19|35| 0|64|
+|13|26|31| 0| 0|
 ----------------
 | 0| 0| 0|48|66|
 ----------------
-player: 2, target: 60, hit: true 
-row: 0, col: 3, val: 0
-row: 3, col: 0, val: 53
-row: 3, col: 1, val: 0
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 0
+|11| 0| 0|53| 0|
 ----------------
-| 0| 0|45|55|74|
+| 0| 0|33| 0|63|
 ----------------
-| 0| 0| 0|51| 0|
+player: 2, target: 50, hit: true, row:3, col:4
+[|] col: 3, row: 0, val: 55
+[-] col: 0, row: 4, val: 0
+[-] col: 1, row: 4, val: 0
+[-] col: 2, row: 4, val: 33
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 26
+
+hit!!
 ----------------
-| 3|29| 0|48| 0|
+| 0| 0| 0|55|62|
 ----------------
-| 0| 0| 0|59|71|
+|13|26|31| 0| 0|
 ----------------
-| 0| 0|43|47| 0|
+| 0| 0| 0|48|66|
 ----------------
-player: 1, target: 26, hit: true 
-row: 0, col: 0, val: 0
-row: 1, col: 0, val: 0
-row: 2, col: 0, val: 45
-row: 1, col: 0, val: 0
-row: 1, col: 1, val: 0
-row: 1, col: 2, val: 29
-row: 1, col: 3, val: 0
-row: 0, col: 0, val: 0
-row: 1, col: 1, val: 0
-row: 2, col: 2, val: 0
-row: 3, col: 3, val: 59
-row: 0, col: 4, val: 0
-player: 2, target: 26, hit: false 
+|11| 0| 0|53| 0|
 ----------------
-| 0| 0|45|55|74|
+| 0| 0|33| 0|63|
 ----------------
-| 0| 0| 0| 0| 0|
+player: 2, target: 28, hit: true, row:1, col:0
+[|] col: 1, row: 0, val: 0
+[|] col: 1, row: 1, val: 26
+[-] col: 0, row: 0, val: 0
+[-] col: 1, row: 0, val: 0
+[-] col: 2, row: 0, val: 0
+[-] col: 3, row: 0, val: 55
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 26
+
+hit!!
 ----------------
-| 3|29| 0|48| 0|
+| 0| 0| 0|55|62|
 ----------------
-| 0| 0| 0|59|71|
-----------------
-| 0| 0|43|47| 0|
-----------------
-player: 1, target: 51, hit: true 
-row: 0, col: 1, val: 0
-row: 1, col: 1, val: 0
-row: 2, col: 1, val: 0
-row: 3, col: 0, val: 55
-row: 3, col: 1, val: 0
-row: 3, col: 2, val: 48
-row: 3, col: 3, val: 59
-row: 0, col: 0, val: 0
-row: 1, col: 1, val: 0
-row: 2, col: 2, val: 0
-row: 3, col: 3, val: 59
-row: 0, col: 4, val: 0
-player: 2, target: 51, hit: false 
-----------------
-| 0| 0|45|55|74|
-----------------
-| 0| 0| 0| 0| 0|
-----------------
-| 3|29| 0| 0| 0|
-----------------
-| 0| 0| 0|59|71|
-----------------
-| 0| 0|43|47| 0|
-----------------
-player: 1, target: 48, hit: true 
-row: 0, col: 2, val: 3
-row: 3, col: 0, val: 55
-row: 3, col: 1, val: 0
-row: 3, col: 2, val: 0
-row: 3, col: 3, val: 59
-row: 0, col: 0, val: 0
-row: 1, col: 1, val: 0
-row: 2, col: 2, val: 0
-row: 3, col: 3, val: 59
-row: 0, col: 4, val: 0
-----------------
-|15|20|39|53|71|
-----------------
-| 0| 0|34| 0| 0|
-----------------
-| 0| 0| 0|49| 0|
-----------------
-| 0|19|35| 0|64|
+|13|26|31| 0| 0|
 ----------------
 | 0| 0| 0| 0|66|
 ----------------
-player: 2, target: 48, hit: true 
-row: 0, col: 4, val: 0
-row: 3, col: 0, val: 53
-row: 3, col: 1, val: 0
-row: 0, col: 0, val: 15
-row: 0, col: 4, val: 0
-player: 1, target: 56, hit: false 
-player: 2, target: 56, hit: false 
-player: 1, target: 63, hit: false 
-player: 2, target: 63, hit: false 
+|11| 0| 0|53| 0|
 ----------------
-| 0| 0|45|55|74|
+| 0| 0|33| 0|63|
 ----------------
-| 0| 0| 0| 0| 0|
+player: 2, target: 48, hit: true, row:3, col:2
+[|] col: 3, row: 0, val: 55
+[-] col: 0, row: 2, val: 0
+[-] col: 1, row: 2, val: 0
+[-] col: 2, row: 2, val: 0
+[-] col: 3, row: 2, val: 0
+[-] col: 4, row: 2, val: 66
+[/] col: 4, row: 0, val: 62
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 26
+
+hit!!
 ----------------
-| 3| 0| 0| 0| 0|
+| 0| 0|33| 0|63|
 ----------------
-| 0| 0| 0|59|71|
+| 0|27|37|56|64|
 ----------------
-| 0| 0|43|47| 0|
+| 0|25| 0| 0| 0|
 ----------------
-player: 1, target: 29, hit: true 
-row: 0, col: 2, val: 3
-row: 1, col: 0, val: 0
-row: 1, col: 1, val: 0
-row: 1, col: 2, val: 0
-row: 1, col: 3, val: 0
-row: 1, col: 4, val: 0
-player: 1 goal!!!
+| 9|18|31|53|66|
+----------------
+|12| 0| 0|55|75|
+----------------
+player: 1, target: 26, hit: true, row:1, col:0
+[|] col: 1, row: 0, val: 0
+[|] col: 1, row: 1, val: 27
+[-] col: 0, row: 0, val: 0
+[-] col: 1, row: 0, val: 0
+[-] col: 2, row: 0, val: 33
+[/] col: 4, row: 0, val: 63
+[\] col: 0, row: 0, val: 0
+[\] col: 1, row: 1, val: 27
+
+hit!!
+----------------
+| 0| 0| 0|55|62|
+----------------
+|13| 0|31| 0| 0|
+----------------
+| 0| 0| 0| 0|66|
+----------------
+|11| 0| 0|53| 0|
+----------------
+| 0| 0|33| 0|63|
+----------------
+player: 2, target: 26, hit: true, row:1, col:1
+[|] col: 1, row: 0, val: 0
+[|] col: 1, row: 1, val: 0
+[|] col: 1, row: 2, val: 0
+[|] col: 1, row: 3, val: 0
+[|] col: 1, row: 4, val: 0
+player: 2 goal!!!
 ```
