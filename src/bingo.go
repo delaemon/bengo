@@ -79,19 +79,19 @@ func drawing(numbers []int, index int) int {
 }
 
 func hit(target int, card map[int][]int) (bool, int, int) {
-	row := (target - 1) / 15
-	line := card[row]
-	for col, v := range line {
+	col := (target - 1) / 15
+	line := card[col]
+	for row, v := range line {
 		if v == target {
-			card[row][col] = 0
+			card[col][row] = 0
 			grid(card)
-			return true, row, col
+			return true, col, row
 		}
 	}
 	return false, 0, 0
 }
 
-func goal(card map[int][]int, row int, col int) bool {
+func goal(card map[int][]int, col int, row int) bool {
 
 	if goalCol(card, col) {
 		return true
@@ -112,13 +112,13 @@ func goal(card map[int][]int, row int, col int) bool {
 	return false
 }
 
-func goalRightOblique(card map[int][]int) bool {
+func goalLeftOblique(card map[int][]int) bool {
 	goal := true
 	row := 0
 	col := 0
 	for i := 0; i < 5; i++ {
 		row, col = i, i
-		fmt.Printf("row: %d, col: %d, val: %d\n", row, col, card[row][col])
+		fmt.Printf("[\\] col: %d, row: %d, val: %d\n", col, row, card[col][row])
 		if card[col][row] != 0 {
 			goal = false
 			break
@@ -127,13 +127,13 @@ func goalRightOblique(card map[int][]int) bool {
 	return goal
 }
 
-func goalLeftOblique(card map[int][]int) bool {
+func goalRightOblique(card map[int][]int) bool {
 	goal := true
 	row := 0
 	col := 0
 	for i := 4; i >= 0; i-- {
 		row, col = 4 - i, i
-		fmt.Printf("row: %d, col: %d, val: %d\n", row, col, card[row][col])
+		fmt.Printf("[/] col: %d, row: %d, val: %d\n", col, row, card[col][row])
 		if card[col][row] != 0 {
 			goal = false
 			break
@@ -145,7 +145,7 @@ func goalLeftOblique(card map[int][]int) bool {
 func goalCol(card map[int][]int, col int) bool {
 	goal := true
 	for row := 0; row < 5; row++ {
-		fmt.Printf("row: %d, col: %d, val: %d\n", row, col, card[row][col])
+		fmt.Printf("[|] col: %d, row: %d, val: %d\n", col, row, card[col][row])
 		if card[col][row] != 0 {
 			goal = false
 			break
@@ -157,7 +157,7 @@ func goalCol(card map[int][]int, col int) bool {
 func goalRow(card map[int][]int, row int) bool {
 	goal := true
 	for col := 0; col < 5; col++ {
-		fmt.Printf("row: %d, col: %d, val: %d\n", row, col, card[row][col])
+		fmt.Printf("[-] col: %d, row: %d, val: %d\n", col, row, card[col][row])
 		if card[col][row] != 0 {
 			goal = false
 			break
@@ -186,10 +186,13 @@ func main() {
 	for i := 1; i <= 75; i++ {
 		for player, card := range cards {
 			target := drawing(numbers, i)
-			hit, row, col := hit(target, card)
-			fmt.Printf("player: %d, target: %d, hit: %t \n", player+1, target, hit)
+			hit, col, row := hit(target, card)
 			if hit {
-				goal := goal(card, row, col)
+				fmt.Printf("player: %d, target: %d, hit: %t, row:%d, col:%d\n",
+					player+1, target, hit, col, row)
+			}
+			if hit {
+				goal := goal(card, col, row)
 				if goal {
 					fmt.Printf("player: %d goal!!!\n", player+1)
 					return
